@@ -1,11 +1,21 @@
 # Portfolio Website
-Personal website to showcase projects and skills.
 
-## Live
-https://github.com/13032585789-spec/
+Personal portfolio website for showcasing my projects and skills.
 
-## Tech
-HTML, CSS, JavaScript
+**Live site:** https://13032585789.github.io/
 
-## Run locally
-Open `index.html` in a browser.
+## About
+I’m a first-year B.A.I. undergraduate at Bocconi University. I enjoy building MVPs fast (clear scope → working demo → clean documentation).  
+Currently working on a Python mathematical modeling project and exploring hackathons.
+
+## Featured Projects
+- **Health Records MVP (Apple ecosystem)** — TEF Ignition shortlisted  
+- **Course Chatbot** — university project  
+- **Python Mathematical Modeling** — ongoing
+
+## Tech Stack
+- HTML, CSS (and JavaScript if used)
+- GitHub Pages
+
+## Project Structure
+This repo uses GitHub Pages with the **/docs** folder as the publishing source.
