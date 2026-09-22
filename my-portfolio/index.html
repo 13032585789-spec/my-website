@@ -1,25 +1,195 @@
-<!doctype html>
-<html lang="zh">
+<!DOCTYPE html>
+<html lang="en" class="dark">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Xinran Wu | Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | AI & Independent Developer</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        darkBg: '#0b0f19',
+                        cardBg: '#131b2e',
+                        accent: '#38bdf8',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-  <link rel="stylesheet" href="style.css">
-<body>
-  <h1>Hi， this is Xinran Wu</h1>
-  <p>Bocconi University · BAI First-year · Python/C · TEF Ignition shortlisted</p>
+<body class="bg-darkBg text-slate-100 font-sans antialiased selection:bg-accent selection:text-darkBg">
 
-  <h2>Projects</h2>
-  <ul>
-    <li>Health Records MVP (Apple ecosystem)</li>
-    <li>Course Chatbot</li>
-    <li>Python Mathematical Modeling (ongoing)</li>
-  </ul>
+    <!-- Header / Hero Section -->
+    <header class="max-w-4xl mx-auto px-6 pt-20 pb-12">
+        <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+            <div>
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800/80 text-accent text-xs font-mono mb-4 border border-slate-700">
+                    <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span> Available for new ventures & projects
+                </div>
+                <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-white mb-2">
+                    AI Student & <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-indigo-500">Indie Hacker</span>
+                </h1>
+                <p class="text-slate-400 text-lg max-w-xl">
+                    Undergraduate at <strong class="text-slate-200">Bocconi University</strong> (MCSAI). Passionate about AI agents, product engineering, and scaling digital ventures.
+                </p>
+            </div>
+            <!-- Quick Links -->
+            <div class="flex flex-wrap gap-3">
+                <a href="https://github.com/13032585789-spec" target="_blank" class="flex items-center gap-2 px-4 py-2 rounded-lg bg-cardBg hover:bg-slate-800 text-slate-300 hover:text-white border border-slate-700 transition text-sm">
+                    <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <a href="mailto:contact@example.com" class="flex items-center gap-2 px-4 py-2 rounded-lg bg-accent text-darkBg font-semibold hover:bg-sky-400 transition text-sm">
+                    <i class="fa-solid fa-envelope"></i> Contact Me
+                </a>
+            </div>
+        </div>
+    </header>
 
-  <p>
-    <a href="https://github.com/你的用户名" target="_blank">GitHub</a> ·
-    <a href="mailto:xinran.wu@studbocconi.it">Email</a>
-  </p>
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-6 space-y-16 pb-20">
+
+        <!-- Education Section -->
+        <section>
+            <h2 class="text-xl font-bold tracking-tight text-white mb-6 flex items-center gap-2 border-b border-slate-800 pb-3">
+                <i class="fa-solid fa-graduation-cap text-accent"></i> Education
+            </h2>
+            <div class="bg-cardBg p-6 rounded-xl border border-slate-800 hover:border-slate-700 transition">
+                <div class="flex flex-col md:flex-row md:items-center justify-between mb-2">
+                    <h3 class="text-lg font-semibold text-white">Bocconi University</h3>
+                    <span class="text-sm font-mono text-accent">Milan, Italy</span>
+                </div>
+                <p class="text-slate-300 text-sm mb-1">Bachelor in Mathematical and Computing Sciences for Artificial Intelligence (MCSAI)</p>
+                <p class="text-slate-400 text-xs">Focus: Artificial Intelligence, Linear Algebra, Python/C Programming, Data Structures & Algorithms.</p>
+            </div>
+        </section>
+
+        <!-- Selected Projects & Ventures -->
+        <section>
+            <h2 class="text-xl font-bold tracking-tight text-white mb-6 flex items-center gap-2 border-b border-slate-800 pb-3">
+                <i class="fa-solid fa-rocket text-accent"></i> Selected Projects & Ventures
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                
+                <!-- Project 1 -->
+                <div class="bg-cardBg p-6 rounded-xl border border-slate-800 hover:border-slate-700 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-xs font-mono uppercase tracking-wider px-2.5 py-1 rounded bg-sky-950 text-sky-400 border border-sky-800">Mini Program</span>
+                            <span class="text-xs text-slate-400">Founder & Dev</span>
+                        </div>
+                        <h3 class="text-base font-bold text-white mb-2">WeChat Habit-Tracking Mini Program ("搭子别鸽")</h3>
+                        <p class="text-slate-400 text-sm mb-4">
+                            Designed and independently developed a mini-program featuring multi-user check-ins and dynamic punishment mechanisms. Successfully completed compliance filing and built a monetization framework.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-cardBg p-6 rounded-xl border border-slate-800 hover:border-slate-700 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-xs font-mono uppercase tracking-wider px-2.5 py-1 rounded bg-indigo-950 text-indigo-400 border border-indigo-800">AI Venture</span>
+                            <span class="text-xs text-slate-400">Co-Founder</span>
+                        </div>
+                        <h3 class="text-base font-bold text-white mb-2">AI-Powered Study Abroad Planning App</h3>
+                        <p class="text-slate-400 text-sm mb-4">
+                            Integrating real consulting expertise with vertical AI agents to build a smart school-matching and application planning application.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bg-cardBg p-6 rounded-xl border border-slate-800 hover:border-slate-700 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-xs font-mono uppercase tracking-wider px-2.5 py-1 rounded bg-emerald-950 text-emerald-400 border border-emerald-800">Health Tech</span>
+                            <span class="text-xs text-slate-400">TEF Ignition Shortlisted</span>
+                        </div>
+                        <h3 class="text-base font-bold text-white mb-2">Health Records MVP (Apple Ecosystem)</h3>
+                        <p class="text-slate-400 text-sm mb-4">
+                            Developed a health records management MVP tailored for the Apple ecosystem, earning a spot on the TEF Ignition startup accelerator shortlist.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="bg-cardBg p-6 rounded-xl border border-slate-800 hover:border-slate-700 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-xs font-mono uppercase tracking-wider px-2.5 py-1 rounded bg-amber-950 text-amber-400 border border-amber-800">Open Source</span>
+                            <a href="https://github.com/13032585789-spec/manifestation/tree/main/%E9%A2%91%E7%8E%87-(vibeshift)" target="_blank" class="text-xs text-accent hover:underline flex items-center gap-1">Repo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                        <h3 class="text-base font-bold text-white mb-2">Psychology & Manifestation Tool (`vibeshift`)</h3>
+                        <p class="text-slate-400 text-sm mb-4">
+                            Engineered and open-sourced an interactive web platform focused on psychological tools and manifestation concepts.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Professional & Consulting Experience -->
+        <section>
+            <h2 class="text-xl font-bold tracking-tight text-white mb-6 flex items-center gap-2 border-b border-slate-800 pb-3">
+                <i class="fa-solid fa-briefcase text-accent"></i> Experience & Growth
+            </h2>
+            <div class="space-y-4">
+                <div class="bg-cardBg p-6 rounded-xl border border-slate-800">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-2">
+                        <h3 class="text-base font-bold text-white">Private Study Abroad Consulting Studio <span class="text-accent font-normal text-sm">| Founder & Lead Consultant</span></h3>
+                        <span class="text-xs font-mono text-slate-400"> (€50/hour)</span>
+                    </div>
+                    <p class="text-slate-400 text-sm">
+                        Delivered tailored academic planning and essay guidance, achieving a <strong class="text-slate-200">90% acceptance rate</strong> to target institutions (average 2 offers per student).
+                    </p>
+                </div>
+
+                <div class="bg-cardBg p-6 rounded-xl border border-slate-800">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-2">
+                        <h3 class="text-base font-bold text-white">Self-Media Content Creator (Weibo Platform) <span class="text-accent font-normal text-sm">| Creator & Growth Lead</span></h3>
+                        <span class="text-xs font-mono text-slate-400">Pre-2025</span>
+                    </div>
+                    <p class="text-slate-400 text-sm">
+                        Independently operated a niche content matrix, scaling top-performing campaigns to <strong class="text-slate-200">27M+ reads</strong> and <strong class="text-slate-200">10,000+ reposts</strong> through deep youth psychology insights.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills & Languages -->
+        <section>
+            <h2 class="text-xl font-bold tracking-tight text-white mb-6 flex items-center gap-2 border-b border-slate-800 pb-3">
+                <i class="fa-solid fa-code text-accent"></i> Skills & Languages
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-cardBg p-5 rounded-xl border border-slate-800">
+                    <h3 class="text-sm font-semibold text-accent uppercase tracking-wider mb-3">Programming</h3>
+                    <p class="text-slate-300 text-sm">Python, C, R Language, Git, AI Agent Workflows, Prompt Engineering, Data Structures & Algorithms</p>
+                </div>
+                <div class="bg-cardBg p-5 rounded-xl border border-slate-800">
+                    <h3 class="text-sm font-semibold text-accent uppercase tracking-wider mb-3">Languages</h3>
+                    <p class="text-slate-300 text-sm">Chinese (Native)<br>English (Fluent)<br>Japanese (Conversational, BJT L3)<br>Italian (Professional / Exp. B2 next year)</p>
+                </div>
+                <div class="bg-cardBg p-5 rounded-xl border border-slate-800">
+                    <h3 class="text-sm font-semibold text-accent uppercase tracking-wider mb-3">Interests</h3>
+                    <p class="text-slate-300 text-sm">Piano (Grade 10 / Advanced Amateur), Independent Development, Bipedal Robotics & Mechanism Design</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="max-w-4xl mx-auto px-6 py-10 text-center text-slate-500 text-xs border-t border-slate-800">
+        <p>&copy; 2026. Built with Tailwind CSS & Passion for Code.</p>
+    </footer>
+
 </body>
 </html>
