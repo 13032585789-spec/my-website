@@ -4,8 +4,7 @@
 
 # 👋 Hi, I'm Xinran Wu
 
-[![Bocconi University](https://img.shields.io/badge/Bocconi-MCSAI-blue?style=flat-square)](https://www.unibocconi.eu)
-[![Scholarship](https://img.shields.io/badge/Full_Scholarship-Recipient-success?style=flat-square)]()
+[![Bocconi University](https://img.shields.io/badge/Bocconi-BAI-blue?style=flat-square)](https://www.unibocconi.eu)
 [![Status](https://img.shields.io/badge/Building-AI_&_Products-orange?style=flat-square)]()
 
 *Undergraduate student at **Bocconi University** (Mathematical and Computing Sciences for Artificial Intelligence). Passionate about AI agents, product engineering, and digital venture creation.*
