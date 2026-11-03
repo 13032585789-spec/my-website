@@ -9,7 +9,7 @@
 
 *Undergraduate student at **Bocconi University** (Mathematical and Computing Sciences for Artificial Intelligence). Passionate about AI agents, product engineering, and digital venture creation.*
 
-[📧 xinran.wu@studbocconi.it](mailto:xinran.wu@studbocconi.it) · [🌐 Portfolio](https://github.com/13032585789-spec)
+[📧 xinran.wu@studbocconi.it](mailto:xinran.wu@studbocconi.it) · [💼 LinkedIn](https://www.linkedin.com/in/xinran-wu-8b382a305/) · [🌐 Portfolio](https://github.com/13032585789-spec)
 
 </div>
 
@@ -34,18 +34,27 @@
 ## 💼 Entrepreneurial & Growth Experience
 
 * **Independent Study Abroad Consulting Practice** | *Founder & Education Consultant*
-  * Built an independent practice serving 15 paying students within six months, providing academic planning, strategy, and essay guidance for Japan and Europe at €50/hour.
-  * Converted social media inbound leads into clients, establishing repeat purchases and organic peer recommendations.
+  * Built an independent practice serving 15 paying students within six months; converted ~30 inbound social media enquiries into clients, with repeat purchases and referrals.
+  * Researched ~35 university programmes in Japan and Europe, kept an Excel tracker of requirements and deadlines, and guided application strategy and essays; around half of students received offers from top-10 universities in Japan.
+  * Priced consultations at €50/hour and essay support at €100 to €200 per service; managed up to three students concurrently.
 * **Weibo Content Curation & Distribution** | *Independent Operator*
-  * Operated a manifestation-focused account with 10,000+ followers, scaling top-performing posts to **27M+ reads** and **10,000+ reposts**, earning revenue through creator incentive programmes and informing tool requirements for `vibeshift`.
+  * Grew a resource-curation community to 10,000+ followers, scaling top-performing posts to **27M+ reads** and **10,000+ reposts**, earning revenue through creator incentive programmes and informing tool requirements for `vibeshift`.
+
+---
+
+## 🏆 Hackathons & Competitions
+
+* **L’Oréal Hackathon**: Second Prize
+* **PayPal Hackathon**: Second Prize
+* **Cambridge Battlecode**: peak ranking in the top 10% of competitors
 
 ---
 
 ## 💻 Technical Skills & Stack
 
-* **Programming & Tools**: Python, C, R, Git, Excel, PowerPoint
+* **Programming & Tools**: Python, SQL (basic), C, R, Git, Excel, PowerPoint
 * **Product & Business**: Product Planning, AI Agent Development, AI Workflows, Prompt Engineering, Content Operations, Client Acquisition, Education Consulting
-* **Languages**: Mandarin Chinese (Native), English (Fluent), Japanese (Conversational), Italian (Currently Studying)
+* **Languages**: Mandarin Chinese (Native), English (Fluent), Japanese (Conversational; STBJ BJ3, 545), Italian (Beginner)
 * **Interests**: Piano (Grade 10), Independent Software Development
 
 ---
